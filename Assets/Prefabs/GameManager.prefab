@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1496660496998492}
+  m_IsPrefabParent: 1
+--- !u!1 &1496660496998492
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4648823409623354}
+  - component: {fileID: 114131956607000106}
+  - component: {fileID: 50177243555217876}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4648823409623354
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1496660496998492}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.62282, y: 2.7215037, z: 0.109375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &50177243555217876
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1496660496998492}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &114131956607000106
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1496660496998492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43099075918c86947a45a8520eeac828, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  confeti: {fileID: 4383479007117406, guid: 54ee62dc52c7c154d9868b890ed799ef, type: 2}
+  playerOneCamera: {fileID: 0}
+  playerTwoCamera: {fileID: 0}
+  playerScopeSize: 3
+  playerOne: {fileID: 0}
+  playerTwo: {fileID: 0}
+  platformContainer: {fileID: 0}
+  platform: {fileID: 4432813354282730, guid: 318597b3148d7a74fa2df91990376c67, type: 2}
+  platformEnd: {fileID: 4586042630818702, guid: 67620f326b70ee44b978085b74753717,
+    type: 2}
+  numberOfPlatforms: 7
+  levelChanger: {fileID: 4717340472031808, guid: dc9350b332b006a48b34c0505d07a99a,
+    type: 2}
+  Maze: {fileID: 4664734058984842, guid: 445f080a6c304c344950f7ebbea3f547, type: 2}
+  mine: {fileID: 4078941103230232, guid: 8c2ff7e33a584a04fb3534af6ad4ac82, type: 2}
+  mineContainer: {fileID: 0}
+  finishLine: {fileID: 4616637082326564, guid: a0a19f899f7cd9549878cfdf7acc27e4, type: 2}
+  firstMinePos: {x: 0, y: 0, z: 0}
